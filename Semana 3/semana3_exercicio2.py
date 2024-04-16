@@ -13,13 +13,13 @@ if selecao_produto1 == 1 and selecao_produto2 == 0:
 elif selecao_produto1 == 0 and selecao_produto2 == 1:
          print("O valor da sua compra é R$ ", produto2_0054, ",00. Que tal adicionar mais um produto para ganhar descontos? :) ", sep = "")
 
-elif selecao_produto1 == 2 and selecao_produto2 == 0:
+elif selecao_produto1 >= 2 and selecao_produto2 == 0:
         print("Maravilha! Você ganhou R$ 5,00 de desconto! O valor da sua compra é R$ ", (valor_produto1)-5, ",00.", sep = "")
 
-elif selecao_produto1 == 0 and selecao_produto2 == 2:
+elif selecao_produto1 == 0 and selecao_produto2 >= 2:
         print("Maravilha! Você ganhou R$ 5,00 de desconto! O valor da sua compra é R$ ", (valor_produto2)-5, ",00.", sep = "")
 
-elif selecao_produto1 == 1 and selecao_produto2 == 1:
+elif selecao_produto1 >= 1 and selecao_produto2 >= 1:
         print("Uhul! Você ganhou 50% de desconto! :D. O valor da sua compra é R$", (valor_produto1+valor_produto2)/2)
 
 
